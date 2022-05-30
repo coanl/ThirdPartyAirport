@@ -1,0 +1,83 @@
+[⚠
+Error: Parse error on line 1:
+[general]excluded_ro
+-^
+Expecting 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[', ']', got 'undefined'
+general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+url-latency-benchmark=♻️ 自动选择, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🎥 NETFLIX, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧
+static=⛔️ 广告拦截, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
+static=🚫 运营劫持, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
+static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🌏 国内媒体, 🎯 全球直连, 🔰 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, Singapore1🇸🇬, Japan1🇯🇵, Japan2🇯🇵, Japan3🇯🇵, SG2🇸🇬, Fremont🇺🇸, US2🇺🇸, US3🇺🇸, US4🇺🇸, US5🇺🇸, Frankfurt🇩🇪, German🇩🇪, Australia🇦🇺, Australia2🇦🇺, India🇮🇳, India2🇮🇳, UK🇬🇧, UK2🇬🇧, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTVNTZXJ2aWNlcy5saXN0&group=4pOC77iPIOW-rui9r-acjeWKoQ, tag=Ⓜ️ 微软服务, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvVW5icmVhay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR3VhcmQvSGlqYWNraW5nLmxpc3Q&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvVmlkZW8vTmV0ZmxpeC5saXN0&group=8J-OpSBORVRGTElY, tag=🎥 NETFLIX, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvU3RyZWFtaW5nLmxpc3Q&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9CaWxpYmlsaS5saXN0&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9pUWl5aS5saXN0&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9MZXR2Lmxpc3Q&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9NT08ubGlzdA&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9UZW5jZW50IFZpZGVvLmxpc3Q&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9Zb3VrdS5saXN0&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA&group=8J-TsiDnlLXmiqXkv6Hmga8, tag=📲 电报信息, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR2xvYmFsLmxpc3Q&group=8J-UsCDoioLngrnpgInmi6k, tag=🔰 节点选择, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvQXBwbGUvQXBwbGUubGlzdA&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvQ2hpbmEubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = vsg1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vsg1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Singapore1🇸🇬
+vmess = vjp1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan1🇯🇵
+vmess = vjp2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan2🇯🇵
+vmess = vjp3.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vjp3.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Japan3🇯🇵
+vmess = vsg2.0bad.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vsg2.0bad.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=SG2🇸🇬
+vmess = v1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=v1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Fremont🇺🇸
+vmess = vus2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=US2🇺🇸
+vmess = vus3.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus3.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=US3🇺🇸
+vmess = vus4.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus4.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=US4🇺🇸
+vmess = vus5.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vus5.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=US5🇺🇸
+vmess = vde1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vde1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Frankfurt🇩🇪
+vmess = vde2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vde2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=German🇩🇪
+vmess = vau1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vau1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Australia🇦🇺
+vmess = vau2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vau2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=Australia2🇦🇺
+vmess = vin1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vin1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=India🇮🇳
+vmess = vin2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vin2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=India2🇮🇳
+vmess = vuk1.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vuk1.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=UK🇬🇧
+vmess = vuk2.0bad.com:443, method=chacha20-ietf-poly1305, password=927094d3-d678-4763-8591-e240d0bcae87, aead=true, tls13=false, obfs=wss, obfs-host=vuk2.0bad.com, obfs-uri=/chat, fast-open=false, udp-relay=true, tag=UK2🇬🇧
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
