@@ -203,6 +203,9 @@ proxy-groups:
       - UK🇬🇧
       - UK2🇬🇧
 rules:
+  - DOMAIN-KEYWORD,rennigou,🎯 全球直连
+  - DOMAIN-KEYWORD,030buy,🎯 全球直连
+  - DOMAIN-KEYWORD,030book,🎯 全球直连  
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
