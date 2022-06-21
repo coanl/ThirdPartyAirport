@@ -2732,9 +2732,9 @@ rules:
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
-  - DOMAIN-SUFFIX,admin.rennigou.jp,🎯 全球直连
-  - DOMAIN-SUFFIX,admin-rl.rennigou.jp,🎯 全球直连  
-  - DOMAIN-SUFFIX,admin-dsc.rennigou.jp,🎯 全球直连 
+  - DOMAIN,admin.rennigou.jp,🎯 全球直连
+  - DOMAIN,admin-rl.rennigou.jp,🎯 全球直连 
+  - DOMAIN,admin-dsc.rennigou.jp,🎯 全球直连 
   - DOMAIN-SUFFIX,superset-oa.030mall.com,🎯 全球直连  
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
