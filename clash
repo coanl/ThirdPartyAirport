@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
+external-controller::9090
 proxies:
   - {"type":"vmess","name":"Singapore1🇸🇬","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"Japan1🇯🇵","ws-opts":{"path":"/chat","headers":{"host":"vjp1.0bad.com"}},"server":"vjp1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -168,8 +168,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -2732,9 +2730,9 @@ rules:
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
-  - DOMAIN,admin.rennigou.jp,🎯 全球直连
-  - DOMAIN,admin-rl.rennigou.jp,🎯 全球直连 
-  - DOMAIN,admin-dsc.rennigou.jp,🎯 全球直连 
+  - DOMAIN-SUFFIX,admin.rennigou.jp,🎯 全球直连
+  - DOMAIN-SUFFIX,admin-rl.rennigou.jp,🎯 全球直连 
+  - DOMAIN-SUFFIX,admin-dsc.rennigou.jp,🎯 全球直连 
   - DOMAIN-SUFFIX,superset-oa.030mall.com,🎯 全球直连  
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
