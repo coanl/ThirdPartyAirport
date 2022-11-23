@@ -610,8 +610,6 @@ rules:
   - DOMAIN-SUFFIX,ugvip.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ujian.cc,🛑 全球拦截
   - DOMAIN-SUFFIX,ukeiae.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umeng.co,🛑 全球拦截
-  - DOMAIN-SUFFIX,umeng.com,🛑 全球拦截
   - DOMAIN-SUFFIX,umtrack.com,🛑 全球拦截
   - DOMAIN-SUFFIX,unimhk.com,🛑 全球拦截
   - DOMAIN-SUFFIX,union-wifi.com,🛑 全球拦截
