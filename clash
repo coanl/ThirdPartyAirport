@@ -204,6 +204,7 @@ proxy-groups:
       - UK2🇬🇧
 rules:
   - DOMAIN-KEYWORD,rennigou,🎯 全球直连
+  - DOMAIN-KEYWORD,rngapi.net,🎯 全球直连
   - DOMAIN-KEYWORD,030buy,🎯 全球直连
   - DOMAIN-KEYWORD,030book,🎯 全球直连
   - DOMAIN-SUFFIX,admin.0308.me,🎯 全球直连 
